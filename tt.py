@@ -123,7 +123,7 @@ def demo():
                   switch=OVSSwitch
                   )
     net.start()
-    cli = CLI(net,script='b.txt')
+    #cli = CLI(net,script='b.txt')
     CLI(net)
     net.stop()
 
