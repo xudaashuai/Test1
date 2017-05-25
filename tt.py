@@ -115,7 +115,7 @@ class MMTopo(Topo):
         self.addLink(s10, h7)
         self.addLink(s9, h6)
         self.addLink(s10, h8)
-
+topos = { 'mytopo': ( lambda: MMTopo() ) }
 
 def demo():
     net = Mininet(topo=MMTopo(), cleanup=True, link=TCLink,
